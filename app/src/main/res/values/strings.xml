@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwagCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="swagcalculator_name">Swag Calculator</string>
+    <string name="hint1">Enter a number…</string>
+    <string name="hint2">Enter another number…</string>
+    <string name="calculatebuttontext">Calculate your swag</string>
+    <string name="swagleveltext">Your swag level is:</string>
+    <string name="imagecontent">SWAG</string>
+    <string name="plus_text">+</string>
+    <string name="minus_text">-</string>
+    <string name="divide_text">÷</string>
+    <string name="title_about_list">Items</string>
+    <string name="title_about_detail">About Detail</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_about">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="nextsnapback">Next snapback</string>
+    <string name="about_title">About this app</string>
+    <string name="developertext">Developer</string>
+    <string name="developer">Dutch-Raptor25</string>
+    <string name="ideaby">Original idea by</string>
+    <string name="Jamessuperfun">Jamessuperfun</string>
+    <string name="iconsdesignedby">Icons designed by</string>
+    <string name="Donate">Donate</string>
+    <string name="Donateexplanation">Please support me by donating!</string>
+    <string name="thanksto">Special thanks to</string>
+    <string name="developerandroidcom">developer.android.com</string>
+    <string name="slidenerd">slidenerd</string>
+    <string name="derekbanas">Derek Banas</string>
+    <string name="stackoverflowcom">stackoverflow.com</string>
+    <string name="Calculator">CALCULATOR</string>
+    <string name="calculatorhelp">Takes you to the Swag Calculator</string>
+    <string name="aboutcaps">ABOUT</string>
+    <string name="moreinfo">More info about this app</string>
+    <string name="exit">EXIT</string>
+    <string name="exitexplanation">Exits the app</string>
+    <string name="settingsexplanation">Opens the settings menu</string>
+    <string name="Welcome">Welcome </string>
+    <string name="title_activity_image">OnePlus One</string>
+    <string name="title_activity_flashlight">Flashlight</string>
+    <string name="opensflashlight">Opens the FlashLight</string>
+    <string name="flashlight">FlashLight</string>
+    <string name="amounttocalculate">Amount to calculate</string>
+    <string name="stellingvanpythagoras">Pythagorean theorem</string>
+    <string name="title_activity_pythagorean">Pythagorean theorem</string>
+    <string name="enternumbers">Enter 2 numbers please!</string>
+    <string name="title_activity_abc__formula">Quadratic Equations</string>
+    <string name="x1">X1 = </string>
+    <string name="x2">X2 = </string>
+    <string name="pythexp">Calculates triangle length</string>
+    <string name="quaexp">Calculates quadratic equations</string>
+    <string name="mathhelperexp">Math helper calculates complex equations. Open the navigation drawer to begin!</string>
+    <string name="enter3numbers">Enter 3 numbers please!</string>
+    <string name="clearall">CLEAR ALL</string>
+    <string name="title_activity_circle__surface">Circle Area</string>
+    <string name="surfaceis">The Area is</string>
+    <string name="swag_calculator">Swag Calculator</string>
+    <string name="clr">clr</string>
+    <string name="Help">Enter 2 numbers and hit +, -, × or ÷ to calculate your swag.</string>
+    <string name="pythagorean_help">Enter 2 numbers in any of the 3 slots (remember that the top slot must contain a higher number than the other two slots) and hit the = button or swipe down.</string>
+    <string name="helpcirclesurface">Enter a number and hit the = button or swipe down.</string>
+    <string name="ABCFormulaHelp">Enter the numbers A, B and C and hit the = button or swipe down.</string>
+    <string name="appname">MathHelper</string>
+    <string name="title_activity_launchactivity">SwagCalculator</string>
+    <string name="quadraticexp">If A, B or C is below zero enter the - as well.</string>
+    <string name="helpexp">If you need help, tap on the help button in the navigation drawer.</string>
+    <string name="calculate">Calculate</string>
+    <string name="circleradiushelp">Enter the radius R and tap the = button or swipe down.</string>
+    <string name="enterradius">Enter the radius R of the circle.</string>
+    <string name="enteranumber">Please enter a number!</string>
+    <string name="enteranumbershort">Enter a number</string>
+    <string name="clear">CLEAR</string>
+    <string name="changecolor">Tap to change the color.</string>
+    <string name="title_activity_math_functions">Math Functions</string>
+    <string name="choosecolor">Choose a color</string>
+    <string name="cancel">Cancel</string>
+    <string name="usedlibraries">Libraries Used</string>
+    <string name="donate">DONATE!</string>
+    <string name="calcswag">hit +, -, × or ÷ to calculate your swag.</string>
+    <string name="sorrynoflashlight">Sorry, your device does not support FlashLight!</string>
+    <string name="error">Woops… Error!</string>
+    <string name="playsoundoncalculation">Play sound on calculation</string>
+    <string name="sound">Sound</string>
+    <string name="selectstartscreen">Select which screen to start with.</string>
+    <string name="taptoexpand">Tap to expand!</string>
+    <string name="oldbuttonstyle">Use old button style</string>
+    <string name="changecolors">Change colors</string>
+    <string name="topowerof">to the power of</string>
+    <string name="oldstyleon">Old style enabled</string>
+    <string name="oldstyleoff">Old style disabled, will become active on restart.</string>
+    <string name="taptohide">Tap to hide!</string>
+    <string name="soundoff">Sound disabled</string>
+    <string name="soundon">Sound enabled</string>
+
+</resources>

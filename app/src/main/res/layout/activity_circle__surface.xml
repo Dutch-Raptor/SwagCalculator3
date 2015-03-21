@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="raptor.material.swagtax.Circle_Surface">
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_red"
+        android:paddingTop="@dimen/tool_bar_top_padding"
+        android:theme="@style/MyCustomToolBarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="8dp"/>
+
+
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_red"
+            android:layout_below="@id/app_bar"
+android:id="@+id/statusbarcircle"
+            android:elevation="8dp"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/title_activity_circle__surface"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:text="@string/calculate"
+                android:textColor="#fff"
+
+                android:onClick="calculate"
+                android:layout_gravity="right|center_vertical" />
+       </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusbarcircle"
+        android:orientation="vertical">
+
+<android.support.v4.widget.SwipeRefreshLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/swiptorefresh"
+    >
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:id="@+id/contentcontainer">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="300dp"
+                        android:src="@drawable/circleareaexp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/imagec"/>
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignBaseline="@id/imagec"
+                        android:layout_marginTop="150dp"
+                        android:hint="@string/enterradius"
+                        android:gravity="center"
+                        android:id="@+id/radius"
+                        android:inputType="numberDecimal"
+                        android:digits="1234567890."
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+
+                        />
+<TextView
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+android:gravity="center"
+    android:text="@string/surfaceis"
+    android:textSize="20sp"
+    android:id="@+id/answer"
+    android:layout_below="@id/radius"
+    />
+                    </RelativeLayout>
+    </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutAnimation="@anim/moveup">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abc_explanation"
+        android:id="@+id/imagehelp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagehelp"
+        android:text="@string/quadraticexp"
+        android:id="@+id/quadraticexp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quadraticexp"
+        android:text="@string/ABCFormulaHelp"
+        android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:textSize="15sp"/>
+
+</RelativeLayout>

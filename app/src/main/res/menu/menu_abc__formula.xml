@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="raptor.material.swagtax.ABC_Formula">
+<item
+    android:title="@string/clearall"
+    android:onClick="clearall"
+    app:showAsAction="ifRoom"/>
+    <item
+        android:title="Change Color"
+        android:icon="@drawable/palette"
+        app:showAsAction="ifRoom"
+        android:onClick="color"
+        android:orderInCategory="100"
+        />
+</menu>

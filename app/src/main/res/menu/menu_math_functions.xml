@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.raptor.swagcalculator.swagcalculator.MathFunctions">
+
+    <item
+        android:title="Change Color"
+        android:icon="@drawable/palette"
+        app:showAsAction="ifRoom"
+        android:onClick="color"
+        />
+</menu>

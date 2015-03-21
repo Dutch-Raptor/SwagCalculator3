@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="raptor.material.swagtax.Circle_Surface">
+    <item android:id="@+id/clear" android:title="@string/clear"
+         app:showAsAction="ifRoom"
+        android:onClick="clear"/>
+    <item
+        android:title="Change Color"
+        android:icon="@drawable/palette"
+        app:showAsAction="ifRoom"
+        android:onClick="color"
+        />
+</menu>

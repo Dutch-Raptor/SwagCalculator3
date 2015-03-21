@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwagCalculator</string>
+    <string name="Donate">Doneer</string>
+    <string name="Donateexplanation">Help me door te doneren!</string>
+    <string name="about_title">Over deze app</string>
+    <string name="Jamessuperfun">Jamessuperfun</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="calculatebuttontext">Bereken jouw swag</string>
+    <string name="derekbanas">Derek Banas</string>
+    <string name="developer">Dutch-Raptor25</string>
+    <string name="developerandroidcom">developer.android.com</string>
+    <string name="developertext">Ontwikkelaar</string>
+    <string name="divide_text">÷</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint1">Voer een nummer in…</string>
+    <string name="hint2">Voer nog een nummer in…</string>
+    <string name="iconsdesignedby">Iconen ontworpen door</string>
+    <string name="ideaby">Originele idee van</string>
+    <string name="imagecontent">SWAG</string>
+    <string name="minus_text">-</string>
+    <string name="nextsnapback">Volgende snapback</string>
+    <string name="plus_text">+</string>
+    <string name="slidenerd">slidenerd</string>
+    <string name="stackoverflowcom">stackoverflow.com</string>
+    <string name="swagcalculator_name">Swag Calculator</string>
+    <string name="swagleveltext">Jouw swag level is:</string>
+    <string name="thanksto">Met dank aan</string>
+    <string name="title_about_detail">About Detail</string>
+    <string name="title_about_list">Items</string>
+    <string name="title_activity_about">Over </string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="Calculator">CALCULATOR</string>
+    <string name="exit">VERLAAT</string>
+    <string name="exitexplanation">Verlaat de app</string>
+    <string name="calculatorhelp">Brengt je naar de Swag Calculator</string>
+    <string name="aboutcaps">OVER</string>
+    <string name="moreinfo">Meer informatie over deze app</string>
+    <string name="settingsexplanation">Opent het instellingen menu</string>
+    <string name="title_activity_image">OnePlus One</string>
+    <string name="opensflashlight">Opent de Zaklamp</string>
+    <string name="title_activity_flashlight">Zaklamp</string>
+    <string name="flashlight">Zaklamp</string>
+    <string name="amounttocalculate">Aantal om uit te rekenen</string>
+    <string name="appname">WiskundeHulpje</string>
+    <string name="enternumbers">Voer 2 nummers in alstublieft!</string>
+    <string name="stellingvanpythagoras">Stelling van Pythagoras</string>
+    <string name="title_activity_pythagorean">Stelling van Pythagoras</string>
+    <string name="Welcome">Welkom</string>
+    <string name="title_activity_abc__formula">Quadratische Berekeningen</string>
+    <string name="quaexp">Berekent kwadratische problemen</string>
+    <string name="pythexp">Berekent de zijden van een driehoek</string>
+    <string name="x1">X1 = </string>
+    <string name="x2">X2 = </string>
+    <string name="mathhelperexp">WiskundeHulpje berekent ingewikkelde berekeningen, Open het navigatie paneel om te beginnen!</string>
+    <string name="enter3numbers">Voer 3 getallen in alstublieft!</string>
+    <string name="clearall">WIS ALLES</string>
+    <string name="swag_calculator">Swag Calculator</string>
+    <string name="clr">wis</string>
+    <string name="Help">Voer 2 nummers in en druk op +, -, × of ÷ om je swag uit te rekenen. </string>
+    <string name="pythagorean_help">Voer 2 nummers in 2 van de 3 plekken (onthoud dat de bovenste een hoger nummer moet hebben dan de andere twee) en druk op de = knop of swipe naar beneden.</string>
+    <string name="title_activity_circle__surface">Cirkel oppervlakte</string>
+    <string name="surfaceis">De oppervlakte is</string>
+    <string name="helpcirclesurface">Voer een nummer in en druk op de = knop of swipe naar beneden</string>
+    <string name="ABCFormulaHelp">Voer 3 nummers in en druk op de = knop of swipe naar beneden.</string>
+    <string name="calculate">Bereken</string>
+    <string name="helpexp">Als je hulp nodig hebt, tik op de help knop in het navigatie menu.</string>
+    <string name="quadraticexp">Als A, B of C minder dan 0 is voer dan ook het - teken in.</string>
+    <string name="title_activity_launchactivity">SwagCalculator</string>
+    <string name="circleradiushelp">Voer de radius R in en druk op de = knop of swipe naar beneden.</string>
+    <string name="enterradius">Voer radius R van de cirkel in.</string>
+    <string name="enteranumber">Voer een nummer in alstublieft!</string>
+    <string name="enteranumbershort">Voer een nummer in</string>
+    <string name="clear">WIS</string>
+    <string name="cancel">Annuleer</string>
+    <string name="changecolor">Tik om de kleur te veranderen.</string>
+    <string name="choosecolor">Kies een kleur</string>
+    <string name="title_activity_math_functions">Wiskunde Functies</string>
+    <string name="calcswag">druk op +, -, × of ÷ om je swag uit te rekenen.</string>
+    <string name="error">Oeps... Foutje!</string>
+    <string name="donate">DONEER!</string>
+    <string name="sorrynoflashlight">Sorry, uw apparaat biedt geen ondersteuning voor Zaklamp!</string>
+    <string name="selectstartscreen">Selecteer het startscherm.</string>
+    <string name="sound">Geluid</string>
+    <string name="taptoexpand">Tik om uit te breiden!</string>
+    <string name="usedlibraries">Gebruikte Librareis</string>
+    <string name="oldbuttonstyle">Gebruik oude knop stijl</string>
+    <string name="playsoundoncalculation">Speel geluid af bij berekening</string>
+    <string name="changecolors">Verander kleuren</string>
+    <string name="topowerof">tot de macht</string>
+    <string name="taptohide">Tik om te verbergen!</string>
+    <string name="soundon">Geluid ingeschakeld</string>
+    <string name="soundoff">Geluid uitgeschakeld</string>
+    <string name="oldstyleon">Oude stijl ingeschakeld</string>
+    <string name="oldstyleoff">Oude stijl uitgeschakeld, de app opnieuw opstarten is vereist.</string>
+
+
+</resources>

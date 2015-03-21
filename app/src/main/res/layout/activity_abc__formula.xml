@@ -1,0 +1,239 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="raptor.material.swagtax.pythagorean">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_blue"
+        android:elevation="8dp"
+        android:paddingTop="@dimen/tool_bar_top_padding"
+        android:theme="@style/MyCustomToolBarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <FrameLayout
+        android:id="@+id/abcactionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:background="@color/primary_blue"
+        android:elevation="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:maxWidth="300dp"
+            android:text="@string/title_activity_abc__formula"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:onClick="calculate"
+
+            android:text="@string/calculate"
+            android:textColor="#fff" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/abcactionbar"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swiptorefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <RelativeLayout
+                    android:id="@+id/contentcontainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:fitsSystemWindows="true">
+
+                    <RelativeLayout
+                        android:id="@+id/inputlayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#fff"
+                        android:elevation="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/input"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:text="A" />
+
+                            <EditText
+                                android:id="@+id/Aedittext"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:digits="1234567890-."
+                                android:inputType="numberDecimal" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:text="B" />
+
+                            <EditText
+                                android:id="@+id/Bedittext"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:digits="1234567890-."
+                                android:inputType="numberDecimal" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:text="C" />
+
+                            <EditText
+                                android:id="@+id/Cedittext"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:digits="1234567890-."
+                                android:inputType="numberDecimal" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/quadratic_equation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/input"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/helpexp"
+                            android:textSize="20sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/answerlayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/inputlayout"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginTop="30dp"
+                        android:animateLayoutChanges="true"
+                        android:background="#fff"
+                        android:elevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/x1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:text="@string/x1"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/x2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:text="@string/x2"
+                                android:textSize="25sp" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/calculation"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_below="@id/answerlayout"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginTop="30dp"
+                        android:background="#fff"
+                        android:elevation="4dp"
+
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/toplinetext"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="-B±√(B²-4×A×C)"
+                            android:textSize="20sp" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="1dp"
+
+                            android:background="@color/primary_text" />
+
+                        <TextView
+                            android:id="@+id/bottomlinetext"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="2×A"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

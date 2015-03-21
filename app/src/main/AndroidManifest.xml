@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raptor.swagcalculator.swagcalculator"
+    android:versionCode="69"
+    android:versionName="SWAG 69.1337" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mf3"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden|adjustResize" >
+        <activity
+            android:name=".Launchactivity"
+            android:label="@string/title_activity_launchactivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/mf3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.blue" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".image"
+            android:label="@string/title_activity_image"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.red" >
+        </activity>
+        <activity
+            android:name=".Flashlight"
+            android:label="@string/title_activity_flashlight"
+            android:theme="@style/AppTheme.grey" >
+        </activity>
+        <activity
+            android:name=".pythagorean"
+            android:label="@string/title_activity_pythagorean"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.grey"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ABC_Formula"
+            android:label="@string/title_activity_abc__formula"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.blue"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Circle_Surface"
+            android:label="@string/title_activity_circle__surface"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.red"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".MathFunctions"
+            android:label="@string/title_activity_math_functions"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+    </application>
+
+</manifest>
