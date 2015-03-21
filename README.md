@@ -4,4 +4,4 @@ Swag Calculator is an app that does awesome things
 
 screenshots
 
-http://imgur.com/a/HbMWg
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/HbMWg/embed"></iframe>
